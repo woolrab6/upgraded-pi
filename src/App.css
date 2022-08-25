@@ -1,0 +1,669 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Poppins:wght@400;500;600&display=swap");
+
+body,
+.navbar {
+  color: black;
+  background-color: rgb(238, 238, 238) !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+hr {
+  border-top: 1px solid #4c5667;
+}
+
+table {
+  margin-bottom: 0 !important;
+}
+
+.App-logo {
+  height: 30px;
+  float: left;
+  margin-right: 4px;
+  position: relative;
+  top: -4.5px;
+}
+
+#main-content {
+  margin: 10px 15px;
+}
+
+#footer {
+  border-top: 1px solid #4c5667;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+#footer img {
+  margin-right: 10px;
+}
+
+.monospace {
+  font-family: "Noto Sans Mono", monospace;
+  word-break: break-all;
+}
+
+#home .panel-heading {
+  padding-left: 0px;
+}
+
+#home .panel {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.modal-header,
+.modal-body {
+  background-color: #383f4b;
+}
+.modal-body > div {
+  margin-bottom: 40px;
+}
+.modal-body h5 {
+  text-decoration: underline;
+}
+.modal-body img {
+  margin-top: 10px;
+}
+.modal-body input[type="text"] {
+  width: 100%;
+}
+.modal-body input {
+  margin-bottom: 10px;
+}
+
+/*
+ * Bootstrap components and styles
+ */
+.pi-text {
+  color: #fbb44a;
+}
+.brand-text {
+  color: white;
+  font-size: 18px;
+  position: relative;
+  top: 1px;
+}
+
+.panel,
+.panel-heading {
+  /* background-color: #383f4b; */
+  background-color: white;
+
+  /* color: #96a2b4; */
+  color: black;
+  border: none;
+}
+
+.panel-heading {
+  font-size: 15px;
+  font-weight: 550;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.panel-default > .panel-heading {
+  /* background-color: #383f4b; */
+  background-color: white;
+
+  color: black;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.panel-heading .pull-right {
+  color: #fb9678 !important;
+  text-decoration: none !important;
+  transition: all 0.18s ease-in-out;
+}
+
+.panel-heading .pull-right:hover {
+  color: #fa6f46 !important;
+}
+
+.secondary-heading {
+  color: #96a2b4;
+  font-size: small;
+  overflow-wrap: break-word;
+}
+
+[id*="-table"] {
+  font-size: 14px !important;
+}
+
+[id*="-table"] thead {
+  color: #96a2b4;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+
+[id*="-table"] tbody {
+  color: black;
+}
+
+[id*="-table"] > tbody > tr > td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #4c5667;
+}
+
+[id*="-table"] > tbody > tr > td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #4c5667;
+}
+
+.filter {
+  margin: 5px 0px 5px 0px;
+}
+
+.filter select {
+  margin: 0px 5px 5px 0px;
+}
+
+.filter .disclaimer {
+  color: rgb(3, 169, 243);
+}
+
+.form-control {
+  font-size: 13px;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: white;
+}
+
+.table > tbody > tr:hover {
+  /* background-color: rgba(0, 0, 0, 0.1); */
+  background-color: white;
+}
+
+.navbar-default {
+  /* background-color: inherit; */
+  padding: 16px;
+  border-color: inherit;
+  background: linear-gradient(0.25turn, rgb(140, 53, 144), rgb(44, 73, 130));
+}
+
+/* For language dropdown */
+
+.navbar-default .dropdown-menu {
+  background: linear-gradient(0.25turn, rgb(140, 53, 144), rgb(44, 73, 130));
+  border-radius: 0px;
+}
+
+.navbar-default .dropdown-menu > li > a {
+  color: #dce2ec !important;
+}
+
+.navbar-default .dropdown-menu > li > a:hover {
+  background-color: transparent;
+  color: #fbb44a !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 11.5px;
+  margin-top: 2px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+  /* color: #96a2b4; */
+  color: white;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: transparent !important;
+  color: white !important;
+  font-weight: 600;
+}
+
+.navbar-default .navbar-nav > li.open > a.dropdown-toggle {
+  background-color: transparent;
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  /* color: white; */
+  color: #fbb44a !important;
+  /* border-bottom: 1px solid #fbb44a; */
+  transition-property: color;
+  transition-duration: 0.5s;
+}
+
+.navbar-default .navbar-nav > li:first-child {
+  z-index: 1;
+}
+
+.nav-tabs > li > a {
+  border-radius: 0;
+}
+
+ul.navbar-nav .divider-vertical {
+  height: 20px;
+  width: 1px;
+  margin: 17px 10px;
+  border-right: 1px solid #96a2b4;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: rgba(120, 130, 140, 0.28);
+}
+
+.break {
+  word-break: break-all;
+  overflow-wrap: break-word;
+}
+
+/*
+ * Change the navbar collapse point. Collapse at higher widths then the default.
+ *
+ * see this link for details about this css:
+ *   https://stackoverflow.com/questions/18192082/bootstrap-3-navbar-collapse
+ */
+@media (max-width: 1300px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar-text {
+    float: none;
+    margin: 15px 0;
+  }
+  /* since 3.1.0 */
+  .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+  .collapsing {
+    overflow: hidden !important;
+  }
+  .divider-vertical {
+    display: none !important;
+  }
+}
+
+/*************************************************************/
+
+#Language-Selector > span.caret {
+  color: #dce2ec !important;
+}
+
+#Search-Container {
+  padding: 50px 15px 10px 15px;
+  margin-top: 50px;
+  /* background-color: #4c5667; */
+}
+
+#Search-Container input {
+  border: none;
+  font-size: 13px;
+  color: #4c5667;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: none;
+  height: 30px;
+  font-weight: 600;
+  width: 370px;
+  display: inline-block;
+  line-height: 30px;
+  border-radius: 40px;
+  transition: 0.5s ease-out;
+}
+
+#Search-Container .input-group-addon {
+  position: absolute;
+  right: 17px;
+  color: #4c5667;
+  z-index: 4;
+  background: transparent;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  #Search-Container {
+    margin-top: 50px !important;
+  }
+  #Search-Container input {
+    width: 620px !important;
+  }
+  #Search-Container .glyphicon-info-sign {
+    position: relative;
+    left: 35px;
+    top: 0px;
+    font-size: 20px;
+    /* color: rgba(255, 255, 255, 0.9); */
+  }
+}
+
+@media (min-width: 1270px) {
+  #Search-Container {
+    padding-top: 50px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #Search-Container .glyphicon-info-sign {
+    display: none;
+  }
+}
+.glyphicon-search {
+  height: 20px;
+  width: 20px;
+  background-color: #edeef0;
+  padding-top: 0px !important;
+  cursor: pointer;
+}
+
+.glyphicon-search:hover {
+  color: #99a3b4;
+}
+
+.Network-Selector {
+  z-index: 2;
+  position: relative;
+}
+
+.Network-Selector button {
+  font-size: 14px;
+  background: #08b5e5;
+  border: 1px solid #fbb44a;
+  border-radius: 60px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 12px;
+}
+
+.Network-Selector button:focus {
+  outline: none;
+}
+
+.Network-Selector button:not(:first-child),
+.Network-Selector span:not(:first-child) {
+  margin-left: 5px;
+}
+
+.Network-Selector .is-inactive {
+  background: transparent;
+  color: white;
+}
+
+.Network-Selector .is-inactive:hover {
+  opacity: 0.8;
+  background: #fbb44a;
+  color: white;
+  transition: all 0.18s ease-in-out;
+}
+
+.stellarToml a {
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  border-radius: 60px !important;
+  padding: 4px 12px 4px !important;
+  font-weight: 500;
+  font-size: 14px !important;
+  background-color: #fec107 !important;
+  color: white !important;
+  transition: all 0.18s ease-in-out;
+}
+
+.directoryRow {
+  border-bottom: 1px solid #4c5667;
+}
+
+.directoryRow td {
+  border-top: 0 !important;
+}
+
+.directoryRow td div {
+  padding-bottom: 10px;
+}
+
+.directoryRow .anchorLinkCol span a:hover {
+  background-color: #fece3a !important;
+}
+
+#account-tabs {
+  border: 1px solid white !important;
+  border-radius: 0 !important;
+  background: white;
+}
+
+#account-tabs .nav-tabs {
+  border: 1px solid white !important;
+}
+
+#account-tabs .nav-tabs li {
+  color: #96a2b4;
+}
+
+#account-tabs .nav-tabs > li > a {
+  /* border-bottom: 1px solid black; */
+}
+
+#account-tabs .nav-tabs > li.active > a {
+  /* border-bottom: 2px solid white; */
+  color: #0147c8;
+}
+
+#account-tabs .table > tbody > tr > td {
+  border-top: 1px solid #96a2b4;
+}
+
+#csv-export {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#csv-export button {
+  border: none;
+  background-color: #503b9d;
+  transition: all 0.3s;
+}
+
+#csv-export button:hover {
+  background-color: #542270;
+}
+
+div[id|="account-tabs-pane"] {
+  padding: 15px;
+}
+
+a[id|="account-tabs-tab"] {
+  color: #96a2b4;
+}
+
+a[id|="account-tabs-tab"]:hover {
+  color: #fbb44a !important;
+  background-color: white !important;
+  border: 1px solid white;
+  /* border-bottom: 2px solid #01c0c8 !important; */
+  border-color: white !important;
+}
+
+a[id|="account-tabs-tab"][aria-selected="true"] {
+  color: #fbb44a !important;
+  border: 1px solid white !important;
+}
+
+.account-badge a {
+  letter-spacing: 0.05em;
+  border-radius: 60px;
+  padding: 4px 12px 4px;
+  font-weight: 500;
+  background-color: #a34ea7;
+  color: white;
+  transition: all 0.18s ease-in-out;
+}
+
+.account-badge span a:hover {
+  color: white;
+}
+
+.operation {
+  margin: 0px !important;
+  min-height: 60px;
+}
+
+.operation div {
+  margin-top: 10px;
+  padding-left: 0px;
+}
+
+.effect {
+  margin-bottom: 10px !important;
+}
+
+.spinner {
+  width: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pager {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #4c5667;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.pager li a {
+  background-color: #fc8b3a;
+  color: rgba(0, 0, 0, 0.87);
+  border-radius: 0;
+  /* border-color: rgba(120, 130, 140, 0.28); */
+}
+
+.pager li a:hover,
+.pager li a:focus {
+  background-color: rgb(176, 97, 40);
+}
+
+a {
+  /* color: #612365; */
+  color: blue;
+
+}
+
+a:hover {
+  color: #da9123;
+  text-decoration: none;
+}
+
+.col-md-1 a span {
+  border-radius: 60px !important;
+  color: white !important;
+  padding: 4px 12px 4px !important;
+  font-weight: 500 !important;
+  background-color: #01c0c8 !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  /* position: absolute;
+  right: 15px;
+  top: 3px; */
+}
+
+.col-md-1 a span:hover {
+  background-color: #01a8af !important;
+  transition: all 0.18s ease-in-out;
+}
+
+.col-md-1 a:hover {
+  text-decoration: none !important;
+}
+
+#transaction-table #source.account {
+  color: #a34ea7;
+}
+
+.green-blue-button {
+  border-radius: 60px !important;
+  color: white !important;
+  padding: 4px 12px 4px !important;
+  font-weight: 500 !important;
+  background-color: #01c0c8 !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  transition: all 0.18s ease-in-out;
+}
+
+.green-blue-button:hover {
+  background-color: #01a8af !important;
+}
+
+.backend-resource-badge-button {
+  border-radius: 60px;
+  color: white;
+  padding: 4px 12px 4px;
+  background-color: lightgray;
+  font-size: 14px;
+  font-weight: 400;
+  transition: all 0.18s ease-in-out;
+}
+
+/*
+Mobile Rules
+*/
+
+@media only screen and (max-width: 600px) {
+  #Search-Container .input-group {
+    width: 100%;
+  }
+
+  #Search-Container input {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  #operation-table {
+    table-layout: fixed;
+  }
+
+  [id*="-table"] {
+    font-size: 12px !important;
+  }
+
+  .account-badge a {
+    padding: 4px 7px;
+    font-size: 12px;
+  }
+
+  .backend-resource-badge-button {
+    font-size: 12px;
+    padding: 4px 7px;
+  }
+
+  .block-column {
+    display: none;
+  }
+}
